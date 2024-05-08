@@ -110,12 +110,26 @@ img {
     #content-wrapper {
         padding-left: var(--sidbar-width);
     }
+    
+
+    .language-toggle {
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        z-index: 9999;
+        background-color: transparent;
+        border: none;
+        color: white; /* Cambia el color del texto según sea necesario */
+
+      }
 }
+
 
 /* BTN */
 .btn {
     padding: 12px 28px;
     font-weight: 700;
+    
 }
 
 .btn-brand {
@@ -200,12 +214,3 @@ img {
     font-size: 24px;
 }
 
-.language-toggle {
-    position: fixed;
-    top: 20px;
-    right: 20px;
-    z-index: 9999;
-    background-color: transparent;
-    border: none;
-    color: white; /* Cambia el color del texto según sea necesario */
-  }
