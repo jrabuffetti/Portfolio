@@ -14,9 +14,27 @@ AOS.init({
 
 });
 
+// Toggle language function
+function toggleLanguage() {
+  // Obtenemos el idioma actual
+  const currentLang = localStorage.getItem('lang');
+
+  // Si el idioma actual es español, cambiamos a inglés; de lo contrario, cambiamos a español
+  const newLang = currentLang === 'es' ? 'en' : 'es';
+
+  // Guardamos el nuevo idioma en el almacenamiento local
+  localStorage.setItem('lang', newLang);
+
+  // Recargamos la página para aplicar los cambios de idioma
+  location.reload();
+}
+
 // Load language file based on user selection or browser default
-const lang = navigator.language.split('-')[0];
+const lang = localStorage.getItem('lang') || navigator.language.split('-')[0];
 const langFile = lang === 'es' ? 'es.json' : 'en.json';
+
+// Manejamos el evento de clic en el botón de cambio de idioma
+document.getElementById('language-toggle').addEventListener('click', toggleLanguage);
 
 // Fetch and load language file
 fetch(`./assets/lang/${langFile}`)
@@ -25,29 +43,36 @@ fetch(`./assets/lang/${langFile}`)
     // Navigation links
     const homeLink = document.getElementById('home-link');
     const workLink = document.getElementById('work-link');
+
     // const aboutLink = document.getElementById('about-link');
     const contactLink = document.getElementById('contact-link');
     
     homeLink.innerText = data.home;
     workLink.innerText = data.work;
+
     // aboutLink.innerText = data.about;
     contactLink.innerText = data.contact;
     
     // Actualiza el atributo href para que los enlaces sigan funcionando correctamente
     homeLink.href = '#home';
     workLink.href = '#work';
+
     // aboutLink.href = '#about';
     contactLink.href = '#contact';
+
     // Update document title
     document.getElementById('title').innerText = data.title;
 
     // Presentation
     const h1Element = document.getElementById('presentation');
+
     // Actualización del texto HTML con la traducción
     h1Element.innerHTML = data.presentation;
     const pElement = document.getElementById('presentation2');
+
     // Actualiza el contenido del elemento usando innerHTML en lugar de innerText
     pElement.innerHTML = data.presentation2;
+
     // Work button
     const workButton = document.getElementById('work-button');
     workButton.innerText = data['work-button'];
@@ -120,6 +145,10 @@ fetch(`./assets/lang/${langFile}`)
 
     const contactButton = document.getElementById('contact-button');
     contactButton.innerText = data['contact-button'];
+
+    // Obtener el texto del botón de idioma del archivo JSON
+    const button = document.getElementById('language-toggle');
+    button.innerHTML = data.languageToggle;
     
   })
   .catch(error => console.error('Error loading language file:', error));
