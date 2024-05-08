@@ -118,6 +118,8 @@ fetch(`./assets/lang/${langFile}`)
       }
     });
 
+    const contactButton = document.getElementById('contact-button');
+    contactButton.innerText = data['contact-button'];
     
   })
   .catch(error => console.error('Error loading language file:', error));
