@@ -1,0 +1,32 @@
+{
+    "title": "Juan Rabuffetti - Data Engineer",
+    "presentation": "I'M A <span class='text-brand'>DATA SCIENTIST</span> FROM BUENOS AIRES, ARGENTINA",
+    "presentation2": "I am Juan Rabuffetti, currently working as a Data Engineer in AAK Tele-Science, INC.",
+    "work-button": "Explore My Work",
+    "home": "Home",
+    "work": "Work",
+    "contact": "Contact",
+    "projects-header": "Work",
+    "projects-title": "My Recent Projects",
+    "projectname1": "Taxis NYC",
+    "projectinfo1": "<strong>Role:</strong> Data Engineer <br> With the work group, we took on the role of a company consulted about the possibility of creating a fleet of electric taxis in New York.",
+    "readmore1": "Read More",
+    "projectname2": "Traffic accidents in CABA",
+    "projectinfo2": "<strong>Role:</strong> Data Analyst <br> The objective was to generate information that could enable authorities to take measures to reduce fatalities in traffic accidents.",
+    "readmore2": "Read More",
+    "projectname3": "MLOps Steam",
+    "projectinfo3": "<strong>Role:</strong> Data Engineer and Scientist <br> The goal was to deploy a functional API that allows efficient data access, including a recommendation system.",
+    "readmore3": "Read More",
+    "projectname4": "Videogames Market",
+    "projectinfo4": "<strong>Role:</strong> Data Analyst <br> The objective was to analyze the video game market in order to identify possible niches where new products can be developed.",
+    "readmore4": "Read More",
+    "contact-contact": "Contact",
+    "contact-header": "Interested in working together? Let's talk!",
+    "placeholders": {
+        "name": "Enter your name",
+        "email": "Enter your email",
+        "subject": "Enter subject",
+        "message": "Enter your message here"
+    }
+  }
+  

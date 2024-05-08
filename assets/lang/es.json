@@ -1,0 +1,32 @@
+{
+    "title": "Juan Rabuffetti - Ingeniero de Datos",
+    "presentation": "SOY UN <span class='text-brand'>CIENTIFICO DE DATOS</span> DE BUENOS AIRES, ARGENTINA",
+    "presentation2": "Soy Juan Rabuffetti, actualmente me encuentro trabajando como Ingeniero en Datos en AAK Tele-Science, INC.",
+    "work-button": "Explora Mis Proyectos",
+    "home": "Inicio",
+    "work": "Proyectos",
+    "contact": "Contacto",
+    "projects-header": "Proyectos",
+    "projects-title":"Mis Proyectos Recientes",
+    "projectname1": "Taxis NYC",
+    "projectinfo1": "<strong>Rol:</strong> Ingeniero en Datos <br>Con el grupo de trabajo tomamos el rol de una empresa que fue consultada sobre la posibilidad de crear una flota de de taxis electricos en Nueva York.",
+    "readmore1": "Leer Más",
+    "projectname2": "Siniestros Viales en CABA",
+    "projectinfo2": "<strong>Rol:</strong> Analista de Datos <br> El objetivo fue generar información que podría permitir a las autoridades a tomar medidas para disminuir las victimas fatales en sinistros viales.",
+    "readmore2": "Leer Más",
+    "projectname3": "MLOps Steam",
+    "projectinfo3": "<strong>Rol:</strong> Ingeniero y Cientifico en Datos <br>El objetivo fue desplegar una API funcional que permita acceder a los datos de manera eficiente, incluyendo un sistema de recomendación",
+    "readmore3": "Leer Más",
+    "projectname4": "Mercado de Videojuegos",
+    "projectinfo4": "<strong>Rol:</strong> Analista de Datos <br> El objetivo fue analizar el mercado de videojuegos con el objetivo de identificar posibles nichos, en donde se puedan desarrollar nuevos productos",
+    "readmore4": "Leer Más",
+    "contact-contact": "Contacto",
+    "contact-header": "¿Interesado en trabajar juntos? ¡Hablemos!",
+    "placeholders": {
+        "name": "Ingresa tu nombre",
+        "email": "Ingresa tu correo electrónico",
+        "subject": "Ingresa el asunto",
+        "message": "Escribe tu mensaje aquí"
+    }
+  }
+  

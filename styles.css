@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1c2c3c;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+#projects {
+    padding: 20px;
+}
+
+.project-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Esto crea dos columnas de igual ancho */
+    gap: 20px; /* Espacio entre los proyectos */
+    background-color: black;
+}
+
+.project {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#about {
+    background-color: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #1c2c3c;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer img {
+    width: 32px; /* Ancho máximo de 32 píxeles */
+    /* La altura se ajustará automáticamente para conservar la proporción */
+}
+
+.about-content {
+    max-width: 800px; /* Define el ancho máximo del contenido */
+    margin: 0 auto; /* Centra el contenido horizontalmente */
+    line-height: 1.6; /* Define el espaciado entre líneas */
+}
+
+.project img {
+    max-width: 40%; /* Establece el ancho máximo de la imagen al 100% del contenedor */
+    height: auto; /* Ajusta la altura automáticamente para mantener la proporción */
+}
+
+.project h3 {
+    font-weight: bold; /* Hace que el texto del encabezado sea negrita */
+}
