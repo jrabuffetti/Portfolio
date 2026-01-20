@@ -1,7 +1,7 @@
 {
     "title": "Juan Rabuffetti - Data Engineer",
     "languageToggle":"ESPAÑOL <i class='las la-globe'></i></i>",
-    "presentation": "I'M A <span class='text-brand'>DATA SCIENTIST</span> FROM BUENOS AIRES, ARGENTINA",
+    "presentation": "I'M A <span class='text-brand'>DATA ENGINEER</span> (BACKEND & CLOUD) FROM BUENOS AIRES, ARGENTINA",
     "presentation2": "I’m Juan Rabuffetti, currently working as a Data Engineer at Centaurus Securities S.A.<br>I build APIs, automate data pipelines, and deploy cloud-based solutions using Python, FastAPI, SQL, and AWS. Passionate about transforming data into scalable systems that deliver real business value.",
     "work-button": "Explore My Work",
     "home": "About",
