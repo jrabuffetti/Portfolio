@@ -1,8 +1,8 @@
 {
-    "title": "Juan Rabuffetti - Ingeniero de Datos",
+    "title": "Juan Rabuffetti - Científico de Datos",
     "languageToggle":"ENGLISH <i class='las la-globe'></i></i>",
-    "presentation": "SOY UN <span class='text-brand'>INGENIERO DE DATOS</span> (BACKEND & CLOUD) DE BUENOS AIRES, ARGENTINA",
-    "presentation2": "Soy Juan Rabuffetti, actualmente trabajando como Ingeniero de Datos en Centaurus Securities S.A.<br>Desarrollo APIs, automatizo pipelines de datos y despliego soluciones en la nube utilizando Python, FastAPI, SQL y AWS. Apasionado por convertir datos en sistemas escalables que generen valor real para el negocio.",
+    "presentation": "SOY UN <span class='text-brand'>CIENTÍFICO DE DATOS</span> DE BUENOS AIRES, ARGENTINA",
+    "presentation2": "Soy Juan Rabuffetti, actualmente trabajando como Científico de Datos en Market One.<br>Con experiencia en Ingeniería de Datos, desarrollo APIs, automatizo pipelines de datos y despliego soluciones en la nube utilizando Python, FastAPI, SQL y AWS. Apasionado por convertir datos en insights accionables y sistemas escalables.",
     "work-button": "Explora Mis Proyectos",
     "home": "Sobre mi",
     "work": "Proyectos",
